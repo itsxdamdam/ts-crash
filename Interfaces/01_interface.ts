@@ -9,6 +9,9 @@ const automobile: AutomobileInterface = {
   speed: 200,
   speedMethod() {
     console.log(`this ${this.brand} is going at ${this.speed} miles an hour`);
-    
-  }
+  },
 };
+
+function car2(automobile: AutomobileInterface) {
+  automobile.speed = 500;
+}
