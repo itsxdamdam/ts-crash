@@ -1,0 +1,12 @@
+"use strict";
+let cname;
+cname = 12;
+cname = "Idan";
+// let cars = ["Toyota", "BMW", "KIA", "Mercedes"];
+// cars = ["Audi"];
+// let cars: any[] = ["Toyota", "BMW", "KIA", "Mercedes"];
+// cars = ["Audi"];
+// let cars: any = ["Toyota", "BMW", "KIA", "Mercedes"];
+// cars = "Audi";
+let cars = [2, 45, 6, 56];
+cars = [4556];

@@ -1,9 +1,9 @@
-var Example = /** @class */ (function () {
-    function Example() {
+"use strict";
+class Example {
+    constructor() {
         this.house = null;
     }
-    Example.prototype.run = function () {
+    run() {
         alert("some");
-    };
-    return Example;
-}());
+    }
+}
