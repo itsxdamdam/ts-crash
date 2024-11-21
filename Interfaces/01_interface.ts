@@ -4,6 +4,8 @@ interface AutomobileInterface {
   speedMethod(velocidad: number): void;
 }
 
+
+
 const automobile: AutomobileInterface = {
   brand: "BMW",
   speed: 200,
