@@ -9,3 +9,10 @@ const automobile = {
 function car2(automobile) {
     automobile.speed = 500;
 }
+class AutoMobileClass {
+    speedMethod(speed) {
+        console.log(`new speed is ${speed}`);
+    }
+}
+let carObject = new AutoMobileClass();
+carObject.speedMethod(1000);
