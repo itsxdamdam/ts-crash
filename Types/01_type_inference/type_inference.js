@@ -6,4 +6,4 @@ let car = {
         console.log("moving fasssstttttttt");
     },
 };
-// type inference is when TS analyses your values and gets their types ex: Number, String
+// type inference is when TS analyses your values and gets their types ex: Number, String, Array

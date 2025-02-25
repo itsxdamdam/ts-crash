@@ -3,4 +3,4 @@ function cal(val1, val2) {
     let total = val1 + val2;
     return total;
 }
-cal(2, 2);
+cal(2, 3);
