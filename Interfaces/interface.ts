@@ -1,6 +1,6 @@
 interface AutomobileInterface {
   brand?: string;
-  speed?: number;
+  speed: number;
   speedMethod(velocidad: number): void;
 }
 
@@ -8,7 +8,7 @@ interface AutomobileInterface2 extends AutomobileInterface {}
 
 const automobile2: AutomobileInterface2 = {
   brand: "BMW",
-  
+  speed: 5,
 
   speedMethod() {
     console.log(`this ${this.brand} is going at ${this.speed} miles an hour`);
