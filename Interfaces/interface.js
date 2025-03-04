@@ -1,6 +1,7 @@
 "use strict";
 const automobile2 = {
     brand: "BMW",
+    speed: 5,
     speedMethod() {
         console.log(`this ${this.brand} is going at ${this.speed} miles an hour`);
     },
