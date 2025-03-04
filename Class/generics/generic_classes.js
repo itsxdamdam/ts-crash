@@ -9,5 +9,5 @@ class objGenericsClass {
         this.value2 = value2;
     }
 }
-let object1 = new objGenericsClass("Hello", 2);
+let object1 = new objGenericsClass("Hello", "dhdh");
 let object2 = new objGenericsClass(true, "474");

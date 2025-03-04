@@ -9,5 +9,5 @@ class objGenericsClass<type1, type2 extends string> {
   constructor(public value1: type1, public value2: type2) {}
 }
 
-let object1 = new objGenericsClass("Hello", 2);
+let object1 = new objGenericsClass("Hello", "dhdh");
 let object2 = new objGenericsClass<boolean, string>(true, "474");
