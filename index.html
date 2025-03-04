@@ -3,19 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./Class/class_inheritance.js"></script>
+    <!-- <script src="./module_exports/module_runner.js"></script> -->
     <title>TS Crash Course</title>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
   </head>
   <body>
     Welcomeeeeee
   </body>
   <script>
-    var myNameSpace = (function () {
-      return {
-        displayData: function () {
-          console.log("this is my space");
-        },
-      };
-    })();
+    // var myNameSpace = (function () {
+    //   return {
+    //     displayData: function () {
+    //       console.log("this is my space");
+    //     },
+    //   };
+    // })();
+
+    // System.config({
+    //   baseURL: "/",
+    //   packages: {
+    //     "/": {
+    //       defaultExtension: "js",
+    //     },
+    //   },
+    // });
+
+    System.import("./module_exports/app.js");
   </script>
 </html>
